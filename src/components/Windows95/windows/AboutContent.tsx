@@ -7,7 +7,7 @@ export function AboutContent() {
     <div className="space-y-6">
       <div className="flex gap-6">
         <img
-          src="https://media.licdn.com/dms/image/v2/D5603AQHhjmBoNQGzpw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730452091975?e=1737590400&v=beta&t=trkqBkRrrY6A3XcEGarzFGAng5xx-7_qn0h3di83TQc"
+          src="https://github.com/DWE-CLOUD/DWE-CLOUD/blob/main/1730452091975.jpg"
           alt="Profile"
           className="w-32 h-32 rounded-lg border-2 border-gray-400 object-cover"
         />
