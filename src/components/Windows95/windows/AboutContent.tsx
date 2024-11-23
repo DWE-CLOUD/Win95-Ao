@@ -1,7 +1,8 @@
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
-import { Ao } from './images/ao.jpg';
+import Ao from './images/ao.jpg';
+
 
 export function AboutContent() {
   return (
