@@ -59,7 +59,7 @@ export function BootScreen() {
       <div className="text-white text-center space-y-8 max-w-md w-full px-4">
         <div className="space-y-8">
           <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Logo_1992.svg/1200px-Windows_Logo_1992.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/4/44/Windows_95_stacked_logo.svg"
             alt="Windows 95"
             className="w-64 mx-auto"
           />
