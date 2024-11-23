@@ -15,11 +15,11 @@ import { WordContent } from "../windows/WordContent";
 import { ExcelContent } from "../windows/ExcelContent";
 
 {/* Redundant Imports but will optimize later */}
-import About from "./win95ico/all/user.ico";
-import Projects from "./win95ico/all/briefcase.ico";
-import Contact from "./win95ico/all/mail.ico";
-import Skills from "./win95ico/all/settings.ico";
-import Education from "./win95ico/all/book.ico";
+import About from "./win95ico/all/Agent.ico";
+import Projects from "./win95ico/all/Briefcase.ico";
+import Contact from "./win95ico/all/Mailbox.ico";
+import Skills from "./win95ico/all/Settings.ico";
+import Education from "./win95ico/all/Book.ico";
 import Blogs from "./win95ico/all/Tablet Write.ico";
 import Notepad from "./win95ico/all/notepad.ico";
 import Paint from "./win95ico/all/paint.ico";
