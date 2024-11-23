@@ -14,24 +14,43 @@ import { CommandPromptContent } from "../windows/CommandPromptContent";
 import { WordContent } from "../windows/WordContent";
 import { ExcelContent } from "../windows/ExcelContent";
 
-// Windows 95 style icons
+{/* Redundant Imports but will optimize later */}
+import About from "./win95ico/all/user.ico";
+import Projects from "./win95ico/all/briefcase.ico";
+import Contact from "./win95ico/all/mail.ico";
+import Skills from "./win95ico/all/settings.ico";
+import Education from "./win95ico/all/book.ico";
+import Blogs from "./win95ico/all/Tablet Write.ico";
+import Notepad from "./win95ico/all/notepad.ico";
+import Paint from "./win95ico/all/paint.ico";
+import Calci from "./win95ico/all/Calculator.ico";
+import Game from "./win95ico/all/Plush bear.ico";
+import Musics from "./win95ico/all/Music Disc.ico";
+import Browsers from "./win95ico/all/Earth (4 colors).ico";
+import Com from "./win95ico/all/MS-DOS logo.ico";
+import Wor from "./win95ico/all/WordPad.ico";
+import Ex from "./win95ico/all/Text field sheet.ico";
+{/* Sorry for this big import */}
+
+
 const icons = {
-  about: '👤',
-  projects: '💼',
-  contact: '📧',
-  skills: '🎯',
-  education: '🎓',
-  blog: '📝',
-  notepad: '📄',
-  paint: '🎨',
-  calculator: '🔢',
-  games: '🎮',
-  music: '🎵',
-  browser: '🌐',
-  cmd: '⌨️',
-  word: '📝',
-  excel: '📊'
+  about: About,
+  projects: Projects,
+  contact: Contact,
+  skills: Skills,
+  education: Education,
+  blog: Blogs,
+  notepad: Notepad,
+  paint: Paint,
+  calculator: Calci,
+  games: Game,
+  music: Musics,
+  browser: Browsers,
+  cmd: Com,
+  word: Wor,
+  excel: Ex
 };
+
 
 export const applications = {
   about: {
