@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { type SoundEffect } from './useSoundEffects';
 
-export function useWindowManager(playSound: (type: string) => void) {
+export function useWindowManager(playSound: (type: SoundEffect) => void) {
   const [activeWindows, setActiveWindows] = useState<Record<string, boolean>>({});
   const [maximized, setMaximized] = useState<Record<string, boolean>>({});
   const [windowOrder, setWindowOrder] = useState<string[]>([]);

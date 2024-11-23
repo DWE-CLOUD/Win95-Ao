@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Window95 } from "./Window95";
 import { DesktopIcon } from "./DesktopIcon";
-import { type Applications, type Position } from "./types";
+import { type Applications, type Position, type SoundEffect } from "./types";
 
 interface DesktopProps {
   applications: Applications;
@@ -19,7 +19,7 @@ interface DesktopProps {
   setIsPlaying: (playing: boolean) => void;
   currentTrack: number;
   setCurrentTrack: (track: number) => void;
-  playSound: (sound: string) => void;
+  playSound: (sound: SoundEffect) => void;
 }
 
 export function Desktop({

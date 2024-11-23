@@ -24,3 +24,5 @@ export interface WindowProps {
   setCurrentTrack?: (track: number) => void;
   playSound?: (sound: SoundEffect) => void;
 }
+
+export type { SoundEffect };
