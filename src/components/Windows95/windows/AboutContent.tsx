@@ -1,13 +1,14 @@
 import { Card } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
+import { Ao } from './images/ao.jpg';
 
 export function AboutContent() {
   return (
     <div className="space-y-6">
       <div className="flex gap-6">
         <img
-          src="https://github.com/DWE-CLOUD/DWE-CLOUD/blob/main/1730452091975.jpg"
+          src={Ao}
           alt="Profile"
           className="w-32 h-32 rounded-lg border-2 border-gray-400 object-cover"
         />
