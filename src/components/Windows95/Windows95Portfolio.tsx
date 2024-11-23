@@ -6,7 +6,7 @@ import { TaskBar } from "./TaskBar";
 import { ContextMenu } from "./ContextMenu";
 import { RunDialog } from "./windows/RunDialog";
 import { applications } from "./config/applications";
-import { useSoundEffects } from "./hooks/useSoundEffects";
+import { useSoundEffects, type SoundEffect } from "./hooks/useSoundEffects";
 import { useWindowManager } from "./hooks/useWindowManager";
 
 export function Windows95Portfolio() {
@@ -30,7 +30,7 @@ export function Windows95Portfolio() {
     closeWindow, 
     setMaximized, 
     setWindowOrder 
-  } = useWindowManager(playSound);
+  } = useWindowManager((type: SoundEffect) => playSound(type));
 
   // Startup sequence
   useEffect(() => {
@@ -110,7 +110,7 @@ export function Windows95Portfolio() {
         setIsPlaying={setIsPlaying}
         currentTrack={currentTrack}
         setCurrentTrack={setCurrentTrack}
-        playSound={playSound}
+        playSound={(type: SoundEffect) => playSound(type)}
       />
 
       <TaskBar 

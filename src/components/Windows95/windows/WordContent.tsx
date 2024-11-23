@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
 import { 
   Bold, 
   Italic, 
@@ -37,7 +36,7 @@ const fontSizes = ['8', '9', '10', '11', '12', '14', '16', '18', '20', '24', '28
 export function WordContent() {
   const [showSplash, setShowSplash] = useState(true);
   const [content, setContent] = useState('');
-  const [fontFamily, setFontFamily] = useState('Times New Roman');
+  const [currentFont, setCurrentFont] = useState('Times New Roman');
   const [fontSize, setFontSize] = useState('12');
   const editorRef = useRef<HTMLDivElement>(null);
 
@@ -130,9 +129,9 @@ export function WordContent() {
       {/* Toolbar 2 - Formatting */}
       <div className="flex flex-wrap gap-2 p-2 bg-gray-100 border-b">
         <select 
-          value={fontFamily}
+          value={currentFont}
           onChange={(e) => {
-            setFontFamily(e.target.value);
+            setCurrentFont(e.target.value);
             handleFormat('fontName', e.target.value);
           }}
           className="word95-button px-2"
@@ -265,7 +264,7 @@ export function WordContent() {
         contentEditable
         suppressContentEditableWarning
         style={{
-          fontFamily,
+          fontFamily: currentFont,
           fontSize: `${fontSize}pt`,
           minHeight: '100%',
           outline: 'none',

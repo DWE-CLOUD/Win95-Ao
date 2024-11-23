@@ -13,7 +13,6 @@ import {
   Volume1,
   VolumeX,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Slider } from "@/components/ui/slider";
 import { type Applications } from "./types";
