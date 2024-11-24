@@ -2,8 +2,8 @@
 <div align="center">
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/yourusername/windows95-portfolio/issues)
-[![Stars](https://img.shields.io/github/stars/yourusername/windows95-portfolio?style=social)](https://github.com/yourusername/windows95-portfolio/stargazers)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/DWE-CLOUD/Win95-Ao/issues)
+[![Stars](https://img.shields.io/github/stars/yourusername/windows95-portfolio?style=social)](https://github.com/DWE-CLOUD/Win95-Ao/stargazer)
 
 <h3>Travel back to 1995 with a modern twist! 🚀</h3>
 
