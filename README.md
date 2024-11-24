@@ -77,8 +77,7 @@ npm run dev
 ```
 
 <div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/25927648-3c77-4c17-9cae-f665ab156cf8)
-" alt="Demo" width="600px">
+  <img src="https://github.com/user-attachments/assets/98086b37-5fe5-46da-99a3-5de662550595" alt="Demo" width="600px">
 </div>
 
 ## 🎨 Glimpse Gallery
@@ -86,22 +85,25 @@ npm run dev
 <table>
 <tr>
 <td align="center">
-<img src="![image](https://github.com/user-attachments/assets/a96fc5dc-03d4-46d6-bdc7-87f20fe01e0f)
-" width="200px" /><br>
+<img src="https://github.com/user-attachments/assets/a96fc5dc-03d4-46d6-bdc7-87f20fe01e0f" width="200px" alt="About Me"/>
+<br>
 <b>About Me</b>
 </td>
+
 <td align="center">
-<img src="![image](https://github.com/user-attachments/assets/ad8126fe-1bf7-4a05-bbed-f379737b515d)
-" width="200px" /><br>
+<img src="https://github.com/user-attachments/assets/ad8126fe-1bf7-4a05-bbed-f379737b515d" width="200px" alt="Projects"/>
+<br>
 <b>Projects</b>
 </td>
+
 <td align="center">
-<img src="![image](https://github.com/user-attachments/assets/37cdd20f-7c5d-4c2a-bea1-0fa82842436c)
-" width="200px" /><br>
+<img src="https://github.com/user-attachments/assets/37cdd20f-7c5d-4c2a-bea1-0fa82842436c" width="200px" alt="Games"/>
+<br>
 <b>Games</b>
 </td>
 </tr>
 </table>
+
 
 ## 🛠️ Installation Steps
 
